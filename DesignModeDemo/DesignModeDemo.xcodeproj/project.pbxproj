@@ -13,6 +13,10 @@
 		4E76A5CC207F66FA00C86B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76A5CB207F66FA00C86B42 /* Assets.xcassets */; };
 		4E76A5CF207F66FA00C86B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E76A5CD207F66FA00C86B42 /* LaunchScreen.storyboard */; };
 		4E76A5D2207F66FA00C86B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5D1207F66FA00C86B42 /* main.m */; };
+		4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5DA207F6D8300C86B42 /* BuilderViewController.m */; };
+		4E76A5E220804FBE00C86B42 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5E120804FBE00C86B42 /* Director.m */; };
+		4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5F02080603500C86B42 /* CarCompanyBuilder.m */; };
+		4E76A5F5208062C800C86B42 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5F4208062C800C86B42 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,16 @@
 		4E76A5CE207F66FA00C86B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E76A5D0207F66FA00C86B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E76A5D1207F66FA00C86B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E76A5D9207F6D8300C86B42 /* BuilderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		4E76A5DA207F6D8300C86B42 /* BuilderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		4E76A5E020804FBE00C86B42 /* Director.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		4E76A5E120804FBE00C86B42 /* Director.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		4E76A5E62080504500C86B42 /* CarBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
+		4E76A5EF2080603500C86B42 /* CarCompanyBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarCompanyBuilder.h; sourceTree = "<group>"; };
+		4E76A5F02080603500C86B42 /* CarCompanyBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarCompanyBuilder.m; sourceTree = "<group>"; };
+		4E76A5F2208060D300C86B42 /* CarCompanyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarCompanyProtocol.h; sourceTree = "<group>"; };
+		4E76A5F3208062C800C86B42 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		4E76A5F4208062C800C86B42 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 				4E76A5C3207F66F900C86B42 /* AppDelegate.m */,
 				4E76A5C5207F66F900C86B42 /* ViewController.h */,
 				4E76A5C6207F66F900C86B42 /* ViewController.m */,
+				4E76A5D8207F6D2B00C86B42 /* 构建者模式 */,
 				4E76A5C8207F66F900C86B42 /* Main.storyboard */,
 				4E76A5CB207F66FA00C86B42 /* Assets.xcassets */,
 				4E76A5CD207F66FA00C86B42 /* LaunchScreen.storyboard */,
@@ -69,6 +84,31 @@
 				4E76A5D1207F66FA00C86B42 /* main.m */,
 			);
 			path = DesignModeDemo;
+			sourceTree = "<group>";
+		};
+		4E76A5D8207F6D2B00C86B42 /* 构建者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4E76A5D9207F6D8300C86B42 /* BuilderViewController.h */,
+				4E76A5DA207F6D8300C86B42 /* BuilderViewController.m */,
+				4E76A5E020804FBE00C86B42 /* Director.h */,
+				4E76A5E120804FBE00C86B42 /* Director.m */,
+				4E76A5E62080504500C86B42 /* CarBuilder.h */,
+				4E76A5EE20805FFC00C86B42 /* 车场 */,
+			);
+			path = "构建者模式";
+			sourceTree = "<group>";
+		};
+		4E76A5EE20805FFC00C86B42 /* 车场 */ = {
+			isa = PBXGroup;
+			children = (
+				4E76A5EF2080603500C86B42 /* CarCompanyBuilder.h */,
+				4E76A5F02080603500C86B42 /* CarCompanyBuilder.m */,
+				4E76A5F2208060D300C86B42 /* CarCompanyProtocol.h */,
+				4E76A5F3208062C800C86B42 /* Car.h */,
+				4E76A5F4208062C800C86B42 /* Car.m */,
+			);
+			path = "车场";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
+				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
+				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
+				4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */,
 				4E76A5D2207F66FA00C86B42 /* main.m in Sources */,
 				4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */,
 			);
