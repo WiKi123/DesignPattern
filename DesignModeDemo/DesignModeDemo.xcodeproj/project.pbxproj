@@ -38,6 +38,9 @@
 		4ED809912080B0E800970959 /* GeliAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809902080B0E800970959 /* GeliAirConditioner.m */; };
 		4ED809962080B24F00970959 /* DirectionRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809952080B24F00970959 /* DirectionRemote.m */; };
 		4ED809992080B26600970959 /* TemperatureRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809982080B26600970959 /* TemperatureRemote.m */; };
+		4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8099B2080C02F00970959 /* FlyweightPatternViewController.m */; };
+		4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8099E2080C04100970959 /* FlowerFactory.m */; };
+		4ED809A22080C04B00970959 /* Flower.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809A12080C04B00970959 /* Flower.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +105,12 @@
 		4ED809952080B24F00970959 /* DirectionRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionRemote.m; sourceTree = "<group>"; };
 		4ED809972080B26600970959 /* TemperatureRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureRemote.h; sourceTree = "<group>"; };
 		4ED809982080B26600970959 /* TemperatureRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureRemote.m; sourceTree = "<group>"; };
+		4ED8099A2080C02F00970959 /* FlyweightPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyweightPatternViewController.h; sourceTree = "<group>"; };
+		4ED8099B2080C02F00970959 /* FlyweightPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyweightPatternViewController.m; sourceTree = "<group>"; };
+		4ED8099D2080C04100970959 /* FlowerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowerFactory.h; sourceTree = "<group>"; };
+		4ED8099E2080C04100970959 /* FlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowerFactory.m; sourceTree = "<group>"; };
+		4ED809A02080C04B00970959 /* Flower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flower.h; sourceTree = "<group>"; };
+		4ED809A12080C04B00970959 /* Flower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flower.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +330,12 @@
 		4ED8094F2080912600970959 /* 享元模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4ED8099A2080C02F00970959 /* FlyweightPatternViewController.h */,
+				4ED8099B2080C02F00970959 /* FlyweightPatternViewController.m */,
+				4ED8099D2080C04100970959 /* FlowerFactory.h */,
+				4ED8099E2080C04100970959 /* FlowerFactory.m */,
+				4ED809A02080C04B00970959 /* Flower.h */,
+				4ED809A12080C04B00970959 /* Flower.m */,
 			);
 			path = "享元模式";
 			sourceTree = "<group>";
@@ -503,10 +518,13 @@
 			files = (
 				4ED809772080A0D200970959 /* CircleView.m in Sources */,
 				4ED809912080B0E800970959 /* GeliAirConditioner.m in Sources */,
+				4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */,
 				4ED809652080999200970959 /* BallpointPen.m in Sources */,
+				4ED809A22080C04B00970959 /* Flower.m in Sources */,
 				4ED809622080995C00970959 /* Pencil.m in Sources */,
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
+				4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
