@@ -91,8 +91,8 @@
 - (NSArray *)designModeArray{
     
     if (_designModeArray == nil) {
-        _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",
-                             @"构建者模式"];
+        _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",
+                             @"桥接模式"];
     }
     return _designModeArray;
     
@@ -102,10 +102,12 @@
     
     if (_modeVCDic == nil) {
         
-        _modeVCDic = @{@"构建者模式":@"BuilderViewController",
+        _modeVCDic = @{
                        @"工厂方法模式":@"FactoryPatternViewController",
                        @"抽象工厂模式":@"AbstractFactoryPatternViewController",
-                       @"单例模式":@"SingletonPatternViewController"
+                       @"单例模式":@"SingletonPatternViewController",
+                       @"构建者模式":@"BuilderViewController",
+                       @"桥接模式":@"BridgePatternViewController"
                        };
     }
     return _modeVCDic;
