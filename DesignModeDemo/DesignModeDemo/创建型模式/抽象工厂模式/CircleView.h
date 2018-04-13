@@ -1,5 +1,5 @@
 //
-//  FactoryPatternViewController.h
+//  CircleView.h
 //  DesignModeDemo
 //
 //  Created by koala on 2018/4/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FactoryPatternViewController : UIViewController
+@interface CircleView : UIImageView
 
 @end
-

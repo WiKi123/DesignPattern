@@ -21,6 +21,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    /*
+     工厂方法
+     1.通过类继承创建抽象产品
+     2.创建一种产品
+     3.子类化创建并重写工厂方法来创建新产品
+     
+     工厂方法: 多个产品抽象
+     */
+    
     //
     Pen *pen = [PenFactory penFactory:PenTypePencil];
     [pen ifHeavy];
