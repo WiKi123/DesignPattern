@@ -29,6 +29,8 @@
 		4ED809772080A0D200970959 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809762080A0D200970959 /* CircleView.m */; };
 		4ED8097A2080A0DF00970959 /* SquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809792080A0DF00970959 /* SquareView.m */; };
 		4ED8097C2080A17A00970959 /* AbstractFactoryPatternImg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4ED8097B2080A17A00970959 /* AbstractFactoryPatternImg.jpeg */; };
+		4ED8097F2080A82D00970959 /* SingletonPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8097E2080A82D00970959 /* SingletonPatternViewController.m */; };
+		4ED809822080A84800970959 /* SingletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809812080A84800970959 /* SingletonManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,10 @@
 		4ED809782080A0DF00970959 /* SquareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareView.h; sourceTree = "<group>"; };
 		4ED809792080A0DF00970959 /* SquareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareView.m; sourceTree = "<group>"; };
 		4ED8097B2080A17A00970959 /* AbstractFactoryPatternImg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactoryPatternImg.jpeg; sourceTree = "<group>"; };
+		4ED8097D2080A82D00970959 /* SingletonPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPatternViewController.h; sourceTree = "<group>"; };
+		4ED8097E2080A82D00970959 /* SingletonPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternViewController.m; sourceTree = "<group>"; };
+		4ED809802080A84800970959 /* SingletonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonManager.h; sourceTree = "<group>"; };
+		4ED809812080A84800970959 /* SingletonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,10 @@
 		4ED809422080906500970959 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4ED8097D2080A82D00970959 /* SingletonPatternViewController.h */,
+				4ED8097E2080A82D00970959 /* SingletonPatternViewController.m */,
+				4ED809802080A84800970959 /* SingletonManager.h */,
+				4ED809812080A84800970959 /* SingletonManager.m */,
 			);
 			path = "单例模式";
 			sourceTree = "<group>";
@@ -451,9 +461,11 @@
 				4ED8095F208098F700970959 /* Pen.m in Sources */,
 				4ED80968208099B900970959 /* PenFactory.m in Sources */,
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
+				4ED8097F2080A82D00970959 /* SingletonPatternViewController.m in Sources */,
 				4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */,
 				4E76A5D2207F66FA00C86B42 /* main.m in Sources */,
 				4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */,
+				4ED809822080A84800970959 /* SingletonManager.m in Sources */,
 				4ED8096B20809F8200970959 /* AbstractFactoryPatternViewController.m in Sources */,
 				4ED8097A2080A0DF00970959 /* SquareView.m in Sources */,
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
