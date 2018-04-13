@@ -18,9 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"构建者模式";
-    
+
     //第一种构建方式
     id<CarBuilder> build = [[CarCompanyBuilder alloc] init];
 

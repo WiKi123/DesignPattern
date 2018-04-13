@@ -67,6 +67,8 @@
     NSString *type = [self.designModeArray objectAtIndex:indexPath.row];
     NSString *vcName = [self.modeVCDic objectForKey:type];
     UIViewController *subViewController = [[NSClassFromString(vcName) alloc] init];
+    subViewController.title = type;
+    subViewController.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController pushViewController:subViewController animated:YES];
     
 }
@@ -89,7 +91,7 @@
 - (NSArray *)designModeArray{
     
     if (_designModeArray == nil) {
-        _designModeArray = @[@"构建者模式"];
+        _designModeArray = @[@"工厂方法模式",@"构建者模式"];
     }
     return _designModeArray;
     
@@ -99,7 +101,9 @@
     
     if (_modeVCDic == nil) {
         
-        _modeVCDic = @{@"构建者模式":@"BuilderViewController"};
+        _modeVCDic = @{@"构建者模式":@"BuilderViewController",
+                       @"工厂方法模式":@"FactoryPatternViewController"
+                       };
     }
     return _modeVCDic;
     
