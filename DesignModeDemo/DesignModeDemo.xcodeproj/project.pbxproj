@@ -17,6 +17,17 @@
 		4E76A5E220804FBE00C86B42 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5E120804FBE00C86B42 /* Director.m */; };
 		4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5F02080603500C86B42 /* CarCompanyBuilder.m */; };
 		4E76A5F5208062C800C86B42 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5F4208062C800C86B42 /* Car.m */; };
+		4E9BE67A208446DB004BAC55 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE679208446DB004BAC55 /* AdapterViewController.m */; };
+		4E9BE67F2084474E004BAC55 /* AdapterUSD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE67E2084474E004BAC55 /* AdapterUSD.m */; };
+		4E9BE683208447F3004BAC55 /* AdapterCNY.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE682208447F3004BAC55 /* AdapterCNY.m */; };
+		4E9BE6862084484E004BAC55 /* AdapterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE6852084484E004BAC55 /* AdapterManager.m */; };
+		4E9BE68920844CF3004BAC55 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE68820844CF3004BAC55 /* ColorView.m */; };
+		4E9BE68C20844D2D004BAC55 /* ModelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE68B20844D2D004BAC55 /* ModelOne.m */; };
+		4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE68E20844D5A004BAC55 /* ModelTwo.m */; };
+		4E9BE69320844DFD004BAC55 /* ModelOneAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE69220844DFD004BAC55 /* ModelOneAdapter.m */; };
+		4E9BE69620844E0D004BAC55 /* ModelTwoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE69520844E0D004BAC55 /* ModelTwoAdapter.m */; };
+		4E9BE6992084507B004BAC55 /* AdapterDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE6982084507B004BAC55 /* AdapterDemo2ViewController.m */; };
+		4E9BE69C20845258004BAC55 /* AdapterDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE69B20845258004BAC55 /* AdapterDemo1ViewController.m */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -64,6 +75,30 @@
 		4E76A5F2208060D300C86B42 /* CarCompanyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarCompanyProtocol.h; sourceTree = "<group>"; };
 		4E76A5F3208062C800C86B42 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		4E76A5F4208062C800C86B42 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		4E9BE678208446DB004BAC55 /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		4E9BE679208446DB004BAC55 /* AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		4E9BE67D2084474E004BAC55 /* AdapterUSD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterUSD.h; sourceTree = "<group>"; };
+		4E9BE67E2084474E004BAC55 /* AdapterUSD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterUSD.m; sourceTree = "<group>"; };
+		4E9BE680208447CA004BAC55 /* MoneyAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyAdapterProtocol.h; sourceTree = "<group>"; };
+		4E9BE681208447F3004BAC55 /* AdapterCNY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterCNY.h; sourceTree = "<group>"; };
+		4E9BE682208447F3004BAC55 /* AdapterCNY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterCNY.m; sourceTree = "<group>"; };
+		4E9BE6842084484E004BAC55 /* AdapterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterManager.h; sourceTree = "<group>"; };
+		4E9BE6852084484E004BAC55 /* AdapterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterManager.m; sourceTree = "<group>"; };
+		4E9BE68720844CF3004BAC55 /* ColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		4E9BE68820844CF3004BAC55 /* ColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		4E9BE68A20844D2D004BAC55 /* ModelOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelOne.h; sourceTree = "<group>"; };
+		4E9BE68B20844D2D004BAC55 /* ModelOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelOne.m; sourceTree = "<group>"; };
+		4E9BE68D20844D5A004BAC55 /* ModelTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelTwo.h; sourceTree = "<group>"; };
+		4E9BE68E20844D5A004BAC55 /* ModelTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelTwo.m; sourceTree = "<group>"; };
+		4E9BE69020844DAF004BAC55 /* UserInfoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoProtocol.h; sourceTree = "<group>"; };
+		4E9BE69120844DFD004BAC55 /* ModelOneAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelOneAdapter.h; sourceTree = "<group>"; };
+		4E9BE69220844DFD004BAC55 /* ModelOneAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelOneAdapter.m; sourceTree = "<group>"; };
+		4E9BE69420844E0D004BAC55 /* ModelTwoAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelTwoAdapter.h; sourceTree = "<group>"; };
+		4E9BE69520844E0D004BAC55 /* ModelTwoAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelTwoAdapter.m; sourceTree = "<group>"; };
+		4E9BE6972084507B004BAC55 /* AdapterDemo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterDemo2ViewController.h; sourceTree = "<group>"; };
+		4E9BE6982084507B004BAC55 /* AdapterDemo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterDemo2ViewController.m; sourceTree = "<group>"; };
+		4E9BE69A20845258004BAC55 /* AdapterDemo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterDemo1ViewController.h; sourceTree = "<group>"; };
+		4E9BE69B20845258004BAC55 /* AdapterDemo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterDemo1ViewController.m; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -182,6 +217,58 @@
 				4E76A5F4208062C800C86B42 /* Car.m */,
 			);
 			path = "车场";
+			sourceTree = "<group>";
+		};
+		4E9BE67B20844728004BAC55 /* 类适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BE681208447F3004BAC55 /* AdapterCNY.h */,
+				4E9BE682208447F3004BAC55 /* AdapterCNY.m */,
+			);
+			path = "类适配器";
+			sourceTree = "<group>";
+		};
+		4E9BE67C20844731004BAC55 /* 对象适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BE6842084484E004BAC55 /* AdapterManager.h */,
+				4E9BE6852084484E004BAC55 /* AdapterManager.m */,
+			);
+			path = "对象适配器";
+			sourceTree = "<group>";
+		};
+		4E9BE69D2084527B004BAC55 /* 案例1 */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BE67D2084474E004BAC55 /* AdapterUSD.h */,
+				4E9BE67E2084474E004BAC55 /* AdapterUSD.m */,
+				4E9BE680208447CA004BAC55 /* MoneyAdapterProtocol.h */,
+				4E9BE69A20845258004BAC55 /* AdapterDemo1ViewController.h */,
+				4E9BE69B20845258004BAC55 /* AdapterDemo1ViewController.m */,
+				4E9BE67B20844728004BAC55 /* 类适配器 */,
+				4E9BE67C20844731004BAC55 /* 对象适配器 */,
+			);
+			path = "案例1";
+			sourceTree = "<group>";
+		};
+		4E9BE69E2084528B004BAC55 /* 案例2 */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BE6972084507B004BAC55 /* AdapterDemo2ViewController.h */,
+				4E9BE6982084507B004BAC55 /* AdapterDemo2ViewController.m */,
+				4E9BE68720844CF3004BAC55 /* ColorView.h */,
+				4E9BE68820844CF3004BAC55 /* ColorView.m */,
+				4E9BE68A20844D2D004BAC55 /* ModelOne.h */,
+				4E9BE68B20844D2D004BAC55 /* ModelOne.m */,
+				4E9BE68D20844D5A004BAC55 /* ModelTwo.h */,
+				4E9BE68E20844D5A004BAC55 /* ModelTwo.m */,
+				4E9BE69020844DAF004BAC55 /* UserInfoProtocol.h */,
+				4E9BE69120844DFD004BAC55 /* ModelOneAdapter.h */,
+				4E9BE69220844DFD004BAC55 /* ModelOneAdapter.m */,
+				4E9BE69420844E0D004BAC55 /* ModelTwoAdapter.h */,
+				4E9BE69520844E0D004BAC55 /* ModelTwoAdapter.m */,
+			);
+			path = "案例2";
 			sourceTree = "<group>";
 		};
 		4ED809402080903C00970959 /* 工厂方法模式 */ = {
@@ -382,6 +469,10 @@
 		4ED809552080916C00970959 /* 适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BE678208446DB004BAC55 /* AdapterViewController.h */,
+				4E9BE679208446DB004BAC55 /* AdapterViewController.m */,
+				4E9BE69D2084527B004BAC55 /* 案例1 */,
+				4E9BE69E2084528B004BAC55 /* 案例2 */,
 			);
 			path = "适配器模式";
 			sourceTree = "<group>";
@@ -525,26 +616,37 @@
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
 				4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */,
+				4E9BE69620844E0D004BAC55 /* ModelTwoAdapter.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
 				4ED8096E2080A02500970959 /* HeaderImgFactory.m in Sources */,
+				4E9BE6992084507B004BAC55 /* AdapterDemo2ViewController.m in Sources */,
+				4E9BE67A208446DB004BAC55 /* AdapterViewController.m in Sources */,
 				4ED8095F208098F700970959 /* Pen.m in Sources */,
 				4ED809962080B24F00970959 /* DirectionRemote.m in Sources */,
 				4ED80968208099B900970959 /* PenFactory.m in Sources */,
+				4E9BE6862084484E004BAC55 /* AdapterManager.m in Sources */,
 				4ED8098E2080B0DF00970959 /* HaierAirConditioner.m in Sources */,
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
 				4ED8097F2080A82D00970959 /* SingletonPatternViewController.m in Sources */,
+				4E9BE67F2084474E004BAC55 /* AdapterUSD.m in Sources */,
 				4ED809852080B06000970959 /* BridgePatternViewController.m in Sources */,
 				4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */,
+				4E9BE69C20845258004BAC55 /* AdapterDemo1ViewController.m in Sources */,
 				4ED809992080B26600970959 /* TemperatureRemote.m in Sources */,
+				4E9BE68920844CF3004BAC55 /* ColorView.m in Sources */,
+				4E9BE683208447F3004BAC55 /* AdapterCNY.m in Sources */,
 				4E76A5D2207F66FA00C86B42 /* main.m in Sources */,
+				4E9BE68C20844D2D004BAC55 /* ModelOne.m in Sources */,
 				4ED809882080B08600970959 /* Remote.m in Sources */,
 				4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */,
 				4ED809822080A84800970959 /* SingletonManager.m in Sources */,
 				4ED8096B20809F8200970959 /* AbstractFactoryPatternViewController.m in Sources */,
+				4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */,
 				4ED8097A2080A0DF00970959 /* SquareView.m in Sources */,
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
+				4E9BE69320844DFD004BAC55 /* ModelOneAdapter.m in Sources */,
 				4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

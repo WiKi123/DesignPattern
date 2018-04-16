@@ -35,7 +35,7 @@
         
         // 使用缓存池工厂方法来调用.类型是随机的
         
-        Flower *flower = [factory flowerWithType:flowerType]
+        Flower *flower = [factory flowerWithType:flowerType];
         // 简单的创建方式
         [mutArr addObject:flower];
     }
