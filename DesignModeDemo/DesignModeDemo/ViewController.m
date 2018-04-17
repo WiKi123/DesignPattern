@@ -92,7 +92,7 @@
     
     if (_designModeArray == nil) {
         _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",
-                             @"适配器模式",@"桥接模式",
+                             @"适配器模式",@"代理模式",@"桥接模式",
                              @"观察者模式"];
     }
     return _designModeArray;
@@ -108,8 +108,9 @@
                        @"抽象工厂模式":@"AbstractFactoryPatternViewController",
                        @"单例模式":@"SingletonPatternViewController",
                        @"构建者模式":@"BuilderViewController",
-                       @"桥接模式":@"BridgePatternViewController",
                        @"适配器模式":@"AdapterViewController",
+                       @"代理模式":@"DelegatePatternViewController",
+                       @"桥接模式":@"BridgePatternViewController",
                        @"观察者模式":@"ObserverPatternViewController"
         
                        };

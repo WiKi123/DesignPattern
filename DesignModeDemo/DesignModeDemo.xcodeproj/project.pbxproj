@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */; };
+		4E5651632085E4D300A8052B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651622085E4D300A8052B /* Person.m */; };
 		4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5C3207F66F900C86B42 /* AppDelegate.m */; };
 		4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E76A5C6207F66F900C86B42 /* ViewController.m */; };
 		4E76A5CA207F66F900C86B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E76A5C8207F66F900C86B42 /* Main.storyboard */; };
@@ -57,6 +59,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E56515E2085E4C100A8052B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternViewController.h; sourceTree = "<group>"; };
+		4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternViewController.m; sourceTree = "<group>"; };
+		4E5651612085E4D300A8052B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4E5651622085E4D300A8052B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		4E76A5BF207F66F900C86B42 /* DesignModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E76A5C2207F66F900C86B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E76A5C3207F66F900C86B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -467,6 +473,10 @@
 		4ED809532080915900970959 /* 代理模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E56515E2085E4C100A8052B /* DelegatePatternViewController.h */,
+				4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */,
+				4E5651612085E4D300A8052B /* Person.h */,
+				4E5651622085E4D300A8052B /* Person.m */,
 			);
 			path = "代理模式";
 			sourceTree = "<group>";
@@ -625,6 +635,7 @@
 				4ED809652080999200970959 /* BallpointPen.m in Sources */,
 				4ED809A22080C04B00970959 /* Flower.m in Sources */,
 				4ED809622080995C00970959 /* Pencil.m in Sources */,
+				4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */,
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
 				4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */,
@@ -660,6 +671,7 @@
 				4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */,
 				4ED8097A2080A0DF00970959 /* SquareView.m in Sources */,
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
+				4E5651632085E4D300A8052B /* Person.m in Sources */,
 				4E9BE69320844DFD004BAC55 /* ModelOneAdapter.m in Sources */,
 				4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */,
 			);
