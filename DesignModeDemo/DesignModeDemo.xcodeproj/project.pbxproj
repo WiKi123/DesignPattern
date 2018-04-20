@@ -50,6 +50,10 @@
 		4EC312832089EC9500D355C9 /* ManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312822089EC9500D355C9 /* ManagerHandler.m */; };
 		4EC312862089ECAE00D355C9 /* ChairmanHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312852089ECAE00D355C9 /* ChairmanHandler.m */; };
 		4EC312892089ECD300D355C9 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312882089ECD300D355C9 /* Order.m */; };
+		4EC3128C2089F21C00D355C9 /* TemplatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3128B2089F21C00D355C9 /* TemplatePatternViewController.m */; };
+		4EC312922089F25600D355C9 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312912089F25600D355C9 /* Game.m */; };
+		4EC312952089F26A00D355C9 /* Football.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312942089F26A00D355C9 /* Football.m */; };
+		4EC312982089F28100D355C9 /* Basketball.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312972089F28100D355C9 /* Basketball.m */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -166,6 +170,14 @@
 		4EC312852089ECAE00D355C9 /* ChairmanHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChairmanHandler.m; sourceTree = "<group>"; };
 		4EC312872089ECD300D355C9 /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		4EC312882089ECD300D355C9 /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		4EC3128A2089F21C00D355C9 /* TemplatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplatePatternViewController.h; sourceTree = "<group>"; };
+		4EC3128B2089F21C00D355C9 /* TemplatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplatePatternViewController.m; sourceTree = "<group>"; };
+		4EC312902089F25600D355C9 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4EC312912089F25600D355C9 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		4EC312932089F26A00D355C9 /* Football.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Football.h; sourceTree = "<group>"; };
+		4EC312942089F26A00D355C9 /* Football.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Football.m; sourceTree = "<group>"; };
+		4EC312962089F28100D355C9 /* Basketball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Basketball.h; sourceTree = "<group>"; };
+		4EC312972089F28100D355C9 /* Basketball.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Basketball.m; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -485,11 +497,19 @@
 			path = "观察者模式";
 			sourceTree = "<group>";
 		};
-		4ED8094C208090ED00970959 /* 模块方法模式 */ = {
+		4ED8094C208090ED00970959 /* 模版方法模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4EC3128A2089F21C00D355C9 /* TemplatePatternViewController.h */,
+				4EC3128B2089F21C00D355C9 /* TemplatePatternViewController.m */,
+				4EC312902089F25600D355C9 /* Game.h */,
+				4EC312912089F25600D355C9 /* Game.m */,
+				4EC312932089F26A00D355C9 /* Football.h */,
+				4EC312942089F26A00D355C9 /* Football.m */,
+				4EC312962089F28100D355C9 /* Basketball.h */,
+				4EC312972089F28100D355C9 /* Basketball.m */,
 			);
-			path = "模块方法模式";
+			path = "模版方法模式";
 			sourceTree = "<group>";
 		};
 		4ED8094D208090FB00970959 /* 策略模式 */ = {
@@ -503,7 +523,7 @@
 			isa = PBXGroup;
 			children = (
 				4ED8094D208090FB00970959 /* 策略模式 */,
-				4ED8094C208090ED00970959 /* 模块方法模式 */,
+				4ED8094C208090ED00970959 /* 模版方法模式 */,
 				4ED8094B208090BC00970959 /* 观察者模式 */,
 				4ED8094A208090B300970959 /* 迭代器模式 */,
 				4ED80949208090A800970959 /* 责任链模式 */,
@@ -720,6 +740,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC312982089F28100D355C9 /* Basketball.m in Sources */,
 				4ED809772080A0D200970959 /* CircleView.m in Sources */,
 				4ED809912080B0E800970959 /* GeliAirConditioner.m in Sources */,
 				4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */,
@@ -734,8 +755,10 @@
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
 				4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */,
 				4E9BE69620844E0D004BAC55 /* ModelTwoAdapter.m in Sources */,
+				4EC3128C2089F21C00D355C9 /* TemplatePatternViewController.m in Sources */,
 				4E9BE6AB20848DC1004BAC55 /* SubscibeCenter.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
+				4EC312952089F26A00D355C9 /* Football.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
 				4EC312892089ECD300D355C9 /* Order.m in Sources */,
@@ -746,6 +769,7 @@
 				4ED8095F208098F700970959 /* Pen.m in Sources */,
 				4ED809962080B24F00970959 /* DirectionRemote.m in Sources */,
 				4ED80968208099B900970959 /* PenFactory.m in Sources */,
+				4EC312922089F25600D355C9 /* Game.m in Sources */,
 				4EC3127A2089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				4E9BE6862084484E004BAC55 /* AdapterManager.m in Sources */,
 				4ED8098E2080B0DF00970959 /* HaierAirConditioner.m in Sources */,
