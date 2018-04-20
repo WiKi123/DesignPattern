@@ -44,6 +44,12 @@
 		4EC312722089D2AD00D355C9 /* CompositePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312712089D2AD00D355C9 /* CompositePatternViewController.m */; };
 		4EC312752089D2CA00D355C9 /* CompositeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312742089D2CA00D355C9 /* CompositeNode.m */; };
 		4EC312772089D32800D355C9 /* CompositeNode.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC312762089D32800D355C9 /* CompositeNode.png */; };
+		4EC3127A2089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312792089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m */; };
+		4EC3127D2089EC4800D355C9 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3127C2089EC4800D355C9 /* Handler.m */; };
+		4EC312802089EC7B00D355C9 /* GroupLeaderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3127F2089EC7B00D355C9 /* GroupLeaderHandler.m */; };
+		4EC312832089EC9500D355C9 /* ManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312822089EC9500D355C9 /* ManagerHandler.m */; };
+		4EC312862089ECAE00D355C9 /* ChairmanHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312852089ECAE00D355C9 /* ChairmanHandler.m */; };
+		4EC312892089ECD300D355C9 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312882089ECD300D355C9 /* Order.m */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -148,6 +154,18 @@
 		4EC312732089D2CA00D355C9 /* CompositeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeNode.h; sourceTree = "<group>"; };
 		4EC312742089D2CA00D355C9 /* CompositeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeNode.m; sourceTree = "<group>"; };
 		4EC312762089D32800D355C9 /* CompositeNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompositeNode.png; sourceTree = "<group>"; };
+		4EC312782089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainOfResponsibilityPatternViewController.h; sourceTree = "<group>"; };
+		4EC312792089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainOfResponsibilityPatternViewController.m; sourceTree = "<group>"; };
+		4EC3127B2089EC4800D355C9 /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		4EC3127C2089EC4800D355C9 /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		4EC3127E2089EC7B00D355C9 /* GroupLeaderHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupLeaderHandler.h; sourceTree = "<group>"; };
+		4EC3127F2089EC7B00D355C9 /* GroupLeaderHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupLeaderHandler.m; sourceTree = "<group>"; };
+		4EC312812089EC9500D355C9 /* ManagerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerHandler.h; sourceTree = "<group>"; };
+		4EC312822089EC9500D355C9 /* ManagerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerHandler.m; sourceTree = "<group>"; };
+		4EC312842089ECAE00D355C9 /* ChairmanHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChairmanHandler.h; sourceTree = "<group>"; };
+		4EC312852089ECAE00D355C9 /* ChairmanHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChairmanHandler.m; sourceTree = "<group>"; };
+		4EC312872089ECD300D355C9 /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		4EC312882089ECD300D355C9 /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -423,6 +441,18 @@
 		4ED80949208090A800970959 /* 责任链模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4EC312782089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.h */,
+				4EC312792089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m */,
+				4EC312872089ECD300D355C9 /* Order.h */,
+				4EC312882089ECD300D355C9 /* Order.m */,
+				4EC3127B2089EC4800D355C9 /* Handler.h */,
+				4EC3127C2089EC4800D355C9 /* Handler.m */,
+				4EC3127E2089EC7B00D355C9 /* GroupLeaderHandler.h */,
+				4EC3127F2089EC7B00D355C9 /* GroupLeaderHandler.m */,
+				4EC312812089EC9500D355C9 /* ManagerHandler.h */,
+				4EC312822089EC9500D355C9 /* ManagerHandler.m */,
+				4EC312842089ECAE00D355C9 /* ChairmanHandler.h */,
+				4EC312852089ECAE00D355C9 /* ChairmanHandler.m */,
 			);
 			path = "责任链模式";
 			sourceTree = "<group>";
@@ -698,6 +728,7 @@
 				4E56516C2085F93200A8052B /* ConcreteMediator.m in Sources */,
 				4ED809622080995C00970959 /* Pencil.m in Sources */,
 				4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */,
+				4EC312832089EC9500D355C9 /* ManagerHandler.m in Sources */,
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */,
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
@@ -707,12 +738,15 @@
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
+				4EC312892089ECD300D355C9 /* Order.m in Sources */,
 				4ED8096E2080A02500970959 /* HeaderImgFactory.m in Sources */,
 				4E9BE6992084507B004BAC55 /* AdapterDemo2ViewController.m in Sources */,
 				4E9BE67A208446DB004BAC55 /* AdapterViewController.m in Sources */,
+				4EC3127D2089EC4800D355C9 /* Handler.m in Sources */,
 				4ED8095F208098F700970959 /* Pen.m in Sources */,
 				4ED809962080B24F00970959 /* DirectionRemote.m in Sources */,
 				4ED80968208099B900970959 /* PenFactory.m in Sources */,
+				4EC3127A2089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				4E9BE6862084484E004BAC55 /* AdapterManager.m in Sources */,
 				4ED8098E2080B0DF00970959 /* HaierAirConditioner.m in Sources */,
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
@@ -738,6 +772,8 @@
 				4EC312652089BF9700D355C9 /* IteratorPatternViewController.m in Sources */,
 				4ED809822080A84800970959 /* SingletonManager.m in Sources */,
 				4ED8096B20809F8200970959 /* AbstractFactoryPatternViewController.m in Sources */,
+				4EC312862089ECAE00D355C9 /* ChairmanHandler.m in Sources */,
+				4EC312802089EC7B00D355C9 /* GroupLeaderHandler.m in Sources */,
 				4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */,
 				4ED8097A2080A0DF00970959 /* SquareView.m in Sources */,
 				4E5651692085F90500A8052B /* Mediator.m in Sources */,
