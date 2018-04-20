@@ -41,6 +41,9 @@
 		4EC312682089BFF300D355C9 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312672089BFF300D355C9 /* Node.m */; };
 		4EC3126B2089C10E00D355C9 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3126A2089C10E00D355C9 /* LinkedList.m */; };
 		4EC3126F2089C2D900D355C9 /* LinkIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3126E2089C2D900D355C9 /* LinkIterator.m */; };
+		4EC312722089D2AD00D355C9 /* CompositePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312712089D2AD00D355C9 /* CompositePatternViewController.m */; };
+		4EC312752089D2CA00D355C9 /* CompositeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312742089D2CA00D355C9 /* CompositeNode.m */; };
+		4EC312772089D32800D355C9 /* CompositeNode.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC312762089D32800D355C9 /* CompositeNode.png */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -140,6 +143,11 @@
 		4EC3126C2089C28100D355C9 /* LinkListProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkListProtocol.h; sourceTree = "<group>"; };
 		4EC3126D2089C2D900D355C9 /* LinkIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkIterator.h; sourceTree = "<group>"; };
 		4EC3126E2089C2D900D355C9 /* LinkIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkIterator.m; sourceTree = "<group>"; };
+		4EC312702089D2AD00D355C9 /* CompositePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositePatternViewController.h; sourceTree = "<group>"; };
+		4EC312712089D2AD00D355C9 /* CompositePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositePatternViewController.m; sourceTree = "<group>"; };
+		4EC312732089D2CA00D355C9 /* CompositeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeNode.h; sourceTree = "<group>"; };
+		4EC312742089D2CA00D355C9 /* CompositeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeNode.m; sourceTree = "<group>"; };
+		4EC312762089D32800D355C9 /* CompositeNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompositeNode.png; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -495,6 +503,11 @@
 		4ED809502080913900970959 /* 组合模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4EC312762089D32800D355C9 /* CompositeNode.png */,
+				4EC312702089D2AD00D355C9 /* CompositePatternViewController.h */,
+				4EC312712089D2AD00D355C9 /* CompositePatternViewController.m */,
+				4EC312732089D2CA00D355C9 /* CompositeNode.h */,
+				4EC312742089D2CA00D355C9 /* CompositeNode.m */,
 			);
 			path = "组合模式";
 			sourceTree = "<group>";
@@ -663,6 +676,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E76A5CF207F66FA00C86B42 /* LaunchScreen.storyboard in Resources */,
+				4EC312772089D32800D355C9 /* CompositeNode.png in Resources */,
 				4E76A5CC207F66FA00C86B42 /* Assets.xcassets in Resources */,
 				4E76A5CA207F66F900C86B42 /* Main.storyboard in Resources */,
 				4ED8097C2080A17A00970959 /* AbstractFactoryPatternImg.jpeg in Resources */,
@@ -703,6 +717,8 @@
 				4ED8098E2080B0DF00970959 /* HaierAirConditioner.m in Sources */,
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
 				4ED8097F2080A82D00970959 /* SingletonPatternViewController.m in Sources */,
+				4EC312752089D2CA00D355C9 /* CompositeNode.m in Sources */,
+				4EC312722089D2AD00D355C9 /* CompositePatternViewController.m in Sources */,
 				4E9BE67F2084474E004BAC55 /* AdapterUSD.m in Sources */,
 				4E5651722085FA6F00A8052B /* ConcreteColleague.m in Sources */,
 				4ED809852080B06000970959 /* BridgePatternViewController.m in Sources */,
