@@ -37,6 +37,10 @@
 		4E9BE69C20845258004BAC55 /* AdapterDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE69B20845258004BAC55 /* AdapterDemo1ViewController.m */; };
 		4E9BE6A820848D75004BAC55 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE6A720848D75004BAC55 /* ObserverPatternViewController.m */; };
 		4E9BE6AB20848DC1004BAC55 /* SubscibeCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BE6AA20848DC1004BAC55 /* SubscibeCenter.m */; };
+		4EC312652089BF9700D355C9 /* IteratorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312642089BF9700D355C9 /* IteratorPatternViewController.m */; };
+		4EC312682089BFF300D355C9 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312672089BFF300D355C9 /* Node.m */; };
+		4EC3126B2089C10E00D355C9 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3126A2089C10E00D355C9 /* LinkedList.m */; };
+		4EC3126F2089C2D900D355C9 /* LinkIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3126E2089C2D900D355C9 /* LinkIterator.m */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -127,6 +131,15 @@
 		4E9BE6A920848DC1004BAC55 /* SubscibeCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscibeCenter.h; sourceTree = "<group>"; };
 		4E9BE6AA20848DC1004BAC55 /* SubscibeCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscibeCenter.m; sourceTree = "<group>"; };
 		4E9BE6AC20848DDC004BAC55 /* SubscibeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscibeProtocol.h; sourceTree = "<group>"; };
+		4EC312632089BF9700D355C9 /* IteratorPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IteratorPatternViewController.h; sourceTree = "<group>"; };
+		4EC312642089BF9700D355C9 /* IteratorPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IteratorPatternViewController.m; sourceTree = "<group>"; };
+		4EC312662089BFF300D355C9 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		4EC312672089BFF300D355C9 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		4EC312692089C10E00D355C9 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		4EC3126A2089C10E00D355C9 /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		4EC3126C2089C28100D355C9 /* LinkListProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkListProtocol.h; sourceTree = "<group>"; };
+		4EC3126D2089C2D900D355C9 /* LinkIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkIterator.h; sourceTree = "<group>"; };
+		4EC3126E2089C2D900D355C9 /* LinkIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkIterator.m; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -409,6 +422,15 @@
 		4ED8094A208090B300970959 /* 迭代器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4EC312632089BF9700D355C9 /* IteratorPatternViewController.h */,
+				4EC312642089BF9700D355C9 /* IteratorPatternViewController.m */,
+				4EC312662089BFF300D355C9 /* Node.h */,
+				4EC312672089BFF300D355C9 /* Node.m */,
+				4EC312692089C10E00D355C9 /* LinkedList.h */,
+				4EC3126A2089C10E00D355C9 /* LinkedList.m */,
+				4EC3126C2089C28100D355C9 /* LinkListProtocol.h */,
+				4EC3126D2089C2D900D355C9 /* LinkIterator.h */,
+				4EC3126E2089C2D900D355C9 /* LinkIterator.m */,
 			);
 			path = "迭代器模式";
 			sourceTree = "<group>";
@@ -689,18 +711,22 @@
 				4E9BE69C20845258004BAC55 /* AdapterDemo1ViewController.m in Sources */,
 				4ED809992080B26600970959 /* TemperatureRemote.m in Sources */,
 				4E9BE68920844CF3004BAC55 /* ColorView.m in Sources */,
+				4EC3126F2089C2D900D355C9 /* LinkIterator.m in Sources */,
 				4E9BE683208447F3004BAC55 /* AdapterCNY.m in Sources */,
 				4E76A5D2207F66FA00C86B42 /* main.m in Sources */,
 				4E9BE6A820848D75004BAC55 /* ObserverPatternViewController.m in Sources */,
 				4E9BE68C20844D2D004BAC55 /* ModelOne.m in Sources */,
+				4EC312682089BFF300D355C9 /* Node.m in Sources */,
 				4ED809882080B08600970959 /* Remote.m in Sources */,
 				4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */,
+				4EC312652089BF9700D355C9 /* IteratorPatternViewController.m in Sources */,
 				4ED809822080A84800970959 /* SingletonManager.m in Sources */,
 				4ED8096B20809F8200970959 /* AbstractFactoryPatternViewController.m in Sources */,
 				4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */,
 				4ED8097A2080A0DF00970959 /* SquareView.m in Sources */,
 				4E5651692085F90500A8052B /* Mediator.m in Sources */,
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
+				4EC3126B2089C10E00D355C9 /* LinkedList.m in Sources */,
 				4E5651632085E4D300A8052B /* Person.m in Sources */,
 				4E9BE69320844DFD004BAC55 /* ModelOneAdapter.m in Sources */,
 				4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */,
