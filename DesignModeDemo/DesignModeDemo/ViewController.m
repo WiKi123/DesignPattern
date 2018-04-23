@@ -92,8 +92,9 @@
     
     if (_designModeArray == nil) {
         _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",
-                             @"适配器模式",@"代理模式",@"桥接模式",@"组合模式",
-                             @"模板模式",@"观察者模式",@"中介者模式",@"迭代器模式",@"责任链模式"];
+                             @"适配器模式",@"代理模式",@"外观模式",@"桥接模式",@"组合模式",
+                             @"模板模式",@"观察者模式",@"中介者模式",@"迭代器模式",@"责任链模式",
+                             @"备忘录模式"];
     }
     return _designModeArray;
     
@@ -110,13 +111,15 @@
                        @"构建者模式":@"BuilderViewController",
                        @"适配器模式":@"AdapterViewController",
                        @"代理模式":@"DelegatePatternViewController",
+                       @"外观模式":@"FacadePatternViewController",
                        @"桥接模式":@"BridgePatternViewController",
                        @"组合模式":@"CompositePatternViewController",
                        @"模板模式":@"TemplatePatternViewController",
                        @"观察者模式":@"ObserverPatternViewController",
                        @"中介者模式":@"MediatorPatternViewController",
                        @"迭代器模式":@"IteratorPatternViewController",
-                       @"责任链模式":@"ChainOfResponsibilityPatternViewController"
+                       @"责任链模式":@"ChainOfResponsibilityPatternViewController",
+                       @"备忘录模式":@"MementoPatternViewController"
         
                        };
     }

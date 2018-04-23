@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E07DEF4208DE34A005C6FE0 /* FacadePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DEF3208DE34A005C6FE0 /* FacadePatternViewController.m */; };
+		4E07DEF7208DE366005C6FE0 /* FacadeCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DEF6208DE366005C6FE0 /* FacadeCar.m */; };
+		4E07DEFA208DE37A005C6FE0 /* CabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DEF9208DE37A005C6FE0 /* CabDriver.m */; };
+		4E07DEFD208DE38D005C6FE0 /* Taximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DEFC208DE38D005C6FE0 /* Taximeter.m */; };
+		4E07DF00208DEF01005C6FE0 /* MementoPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DEFF208DEF01005C6FE0 /* MementoPatternViewController.m */; };
+		4E07DF03208DEF2A005C6FE0 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF02208DEF2A005C6FE0 /* Apple.m */; };
+		4E07DF06208DEF48005C6FE0 /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF05208DEF48005C6FE0 /* MementoCenter.m */; };
+		4E07DF0B208DEFB5005C6FE0 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF0A208DEFB5005C6FE0 /* FastCoder.m */; };
+		4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF0E208DF135005C6FE0 /* NSObject+MementoCenter.m */; };
 		4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */; };
 		4E5651632085E4D300A8052B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651622085E4D300A8052B /* Person.m */; };
 		4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651652085F8C800A8052B /* MediatorPatternViewController.m */; };
@@ -84,6 +93,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E07DEF2208DE34A005C6FE0 /* FacadePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadePatternViewController.h; sourceTree = "<group>"; };
+		4E07DEF3208DE34A005C6FE0 /* FacadePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadePatternViewController.m; sourceTree = "<group>"; };
+		4E07DEF5208DE366005C6FE0 /* FacadeCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeCar.h; sourceTree = "<group>"; };
+		4E07DEF6208DE366005C6FE0 /* FacadeCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeCar.m; sourceTree = "<group>"; };
+		4E07DEF8208DE37A005C6FE0 /* CabDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CabDriver.h; sourceTree = "<group>"; };
+		4E07DEF9208DE37A005C6FE0 /* CabDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CabDriver.m; sourceTree = "<group>"; };
+		4E07DEFB208DE38D005C6FE0 /* Taximeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taximeter.h; sourceTree = "<group>"; };
+		4E07DEFC208DE38D005C6FE0 /* Taximeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taximeter.m; sourceTree = "<group>"; };
+		4E07DEFE208DEF01005C6FE0 /* MementoPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoPatternViewController.h; sourceTree = "<group>"; };
+		4E07DEFF208DEF01005C6FE0 /* MementoPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoPatternViewController.m; sourceTree = "<group>"; };
+		4E07DF01208DEF2A005C6FE0 /* Apple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		4E07DF02208DEF2A005C6FE0 /* Apple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		4E07DF04208DEF48005C6FE0 /* MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenter.h; sourceTree = "<group>"; };
+		4E07DF05208DEF48005C6FE0 /* MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoCenter.m; sourceTree = "<group>"; };
+		4E07DF07208DEF5A005C6FE0 /* MementoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoProtocol.h; sourceTree = "<group>"; };
+		4E07DF09208DEFB5005C6FE0 /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		4E07DF0A208DEFB5005C6FE0 /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		4E07DF0D208DF135005C6FE0 /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MementoCenter.h"; sourceTree = "<group>"; };
+		4E07DF0E208DF135005C6FE0 /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MementoCenter.m"; sourceTree = "<group>"; };
 		4E56515E2085E4C100A8052B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternViewController.h; sourceTree = "<group>"; };
 		4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternViewController.m; sourceTree = "<group>"; };
 		4E5651612085E4D300A8052B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -247,6 +275,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E07DF08208DEF9C005C6FE0 /* FastCoder */ = {
+			isa = PBXGroup;
+			children = (
+				4E07DF09208DEFB5005C6FE0 /* FastCoder.h */,
+				4E07DF0A208DEFB5005C6FE0 /* FastCoder.m */,
+				4E07DF0D208DF135005C6FE0 /* NSObject+MementoCenter.h */,
+				4E07DF0E208DF135005C6FE0 /* NSObject+MementoCenter.m */,
+			);
+			path = FastCoder;
+			sourceTree = "<group>";
+		};
 		4E76A5B6207F66F900C86B42 = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +487,14 @@
 		4ED809472080909500970959 /* 备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E07DEFE208DEF01005C6FE0 /* MementoPatternViewController.h */,
+				4E07DEFF208DEF01005C6FE0 /* MementoPatternViewController.m */,
+				4E07DF01208DEF2A005C6FE0 /* Apple.h */,
+				4E07DF02208DEF2A005C6FE0 /* Apple.m */,
+				4E07DF04208DEF48005C6FE0 /* MementoCenter.h */,
+				4E07DF05208DEF48005C6FE0 /* MementoCenter.m */,
+				4E07DF07208DEF5A005C6FE0 /* MementoProtocol.h */,
+				4E07DF08208DEF9C005C6FE0 /* FastCoder */,
 			);
 			path = "备忘录模式";
 			sourceTree = "<group>";
@@ -591,6 +638,14 @@
 		4ED809522080914D00970959 /* 外观模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E07DEF2208DE34A005C6FE0 /* FacadePatternViewController.h */,
+				4E07DEF3208DE34A005C6FE0 /* FacadePatternViewController.m */,
+				4E07DEF5208DE366005C6FE0 /* FacadeCar.h */,
+				4E07DEF6208DE366005C6FE0 /* FacadeCar.m */,
+				4E07DEF8208DE37A005C6FE0 /* CabDriver.h */,
+				4E07DEF9208DE37A005C6FE0 /* CabDriver.m */,
+				4E07DEFB208DE38D005C6FE0 /* Taximeter.h */,
+				4E07DEFC208DE38D005C6FE0 /* Taximeter.m */,
 			);
 			path = "外观模式";
 			sourceTree = "<group>";
@@ -760,24 +815,31 @@
 				4ED809912080B0E800970959 /* GeliAirConditioner.m in Sources */,
 				4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */,
 				4ED809652080999200970959 /* BallpointPen.m in Sources */,
+				4E07DEF7208DE366005C6FE0 /* FacadeCar.m in Sources */,
 				4EC312A32089F4A200D355C9 /* UIView+SetRect.m in Sources */,
 				4ED809A22080C04B00970959 /* Flower.m in Sources */,
+				4E07DEFA208DE37A005C6FE0 /* CabDriver.m in Sources */,
 				4E56516C2085F93200A8052B /* ConcreteMediator.m in Sources */,
 				4ED809622080995C00970959 /* Pencil.m in Sources */,
 				4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */,
 				4EC312832089EC9500D355C9 /* ManagerHandler.m in Sources */,
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */,
+				4E07DF03208DEF2A005C6FE0 /* Apple.m in Sources */,
+				4E07DF0B208DEFB5005C6FE0 /* FastCoder.m in Sources */,
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
 				4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */,
 				4E9BE69620844E0D004BAC55 /* ModelTwoAdapter.m in Sources */,
 				4EC3128C2089F21C00D355C9 /* TemplatePatternViewController.m in Sources */,
 				4E9BE6AB20848DC1004BAC55 /* SubscibeCenter.m in Sources */,
 				4EC312A62089F4FF00D355C9 /* FileViewController.m in Sources */,
+				4E07DF00208DEF01005C6FE0 /* MementoPatternViewController.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4EC312952089F26A00D355C9 /* Football.m in Sources */,
+				4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
+				4E07DF06208DEF48005C6FE0 /* MementoCenter.m in Sources */,
 				4EC312892089ECD300D355C9 /* Order.m in Sources */,
 				4ED8096E2080A02500970959 /* HeaderImgFactory.m in Sources */,
 				4E9BE6992084507B004BAC55 /* AdapterDemo2ViewController.m in Sources */,
@@ -796,6 +858,7 @@
 				4EC312722089D2AD00D355C9 /* CompositePatternViewController.m in Sources */,
 				4E9BE67F2084474E004BAC55 /* AdapterUSD.m in Sources */,
 				4E5651722085FA6F00A8052B /* ConcreteColleague.m in Sources */,
+				4E07DEF4208DE34A005C6FE0 /* FacadePatternViewController.m in Sources */,
 				4ED809852080B06000970959 /* BridgePatternViewController.m in Sources */,
 				4E56516F2085F99100A8052B /* Colleague.m in Sources */,
 				4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */,
@@ -818,6 +881,7 @@
 				4EC312802089EC7B00D355C9 /* GroupLeaderHandler.m in Sources */,
 				4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */,
 				4ED8097A2080A0DF00970959 /* SquareView.m in Sources */,
+				4E07DEFD208DE38D005C6FE0 /* Taximeter.m in Sources */,
 				4E5651692085F90500A8052B /* Mediator.m in Sources */,
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
 				4EC3126B2089C10E00D355C9 /* LinkedList.m in Sources */,
