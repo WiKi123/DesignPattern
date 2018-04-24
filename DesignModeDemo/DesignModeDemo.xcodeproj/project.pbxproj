@@ -27,6 +27,11 @@
 		4E10994F208F2781002E1608 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10994B208F2780002E1608 /* StudentModel.m */; };
 		4E109950208F2781002E1608 /* ClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10994D208F2780002E1608 /* ClassModel.m */; };
 		4E109951208F2781002E1608 /* BaseCopyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10994E208F2781002E1608 /* BaseCopyObject.m */; };
+		4E109954208F328E002E1608 /* StatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109953208F328E002E1608 /* StatePatternViewController.m */; };
+		4E10995E208F32AF002E1608 /* ChoosingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109957208F32AE002E1608 /* ChoosingState.m */; };
+		4E10995F208F32AF002E1608 /* Celling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109958208F32AE002E1608 /* Celling.m */; };
+		4E109960208F32AF002E1608 /* ShipmentState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109959208F32AE002E1608 /* ShipmentState.m */; };
+		4E109961208F32AF002E1608 /* BuyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10995B208F32AE002E1608 /* BuyState.m */; };
 		4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */; };
 		4E5651632085E4D300A8052B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651622085E4D300A8052B /* Person.m */; };
 		4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651652085F8C800A8052B /* MediatorPatternViewController.m */; };
@@ -150,6 +155,17 @@
 		4E10994C208F2780002E1608 /* ClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassModel.h; sourceTree = "<group>"; };
 		4E10994D208F2780002E1608 /* ClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassModel.m; sourceTree = "<group>"; };
 		4E10994E208F2781002E1608 /* BaseCopyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCopyObject.m; sourceTree = "<group>"; };
+		4E109952208F328E002E1608 /* StatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatePatternViewController.h; sourceTree = "<group>"; };
+		4E109953208F328E002E1608 /* StatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatePatternViewController.m; sourceTree = "<group>"; };
+		4E109955208F32AD002E1608 /* CellingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellingState.h; sourceTree = "<group>"; };
+		4E109956208F32AE002E1608 /* Celling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Celling.h; sourceTree = "<group>"; };
+		4E109957208F32AE002E1608 /* ChoosingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosingState.m; sourceTree = "<group>"; };
+		4E109958208F32AE002E1608 /* Celling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Celling.m; sourceTree = "<group>"; };
+		4E109959208F32AE002E1608 /* ShipmentState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipmentState.m; sourceTree = "<group>"; };
+		4E10995A208F32AE002E1608 /* ChoosingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosingState.h; sourceTree = "<group>"; };
+		4E10995B208F32AE002E1608 /* BuyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyState.m; sourceTree = "<group>"; };
+		4E10995C208F32AE002E1608 /* BuyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyState.h; sourceTree = "<group>"; };
+		4E10995D208F32AF002E1608 /* ShipmentState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipmentState.h; sourceTree = "<group>"; };
 		4E56515E2085E4C100A8052B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternViewController.h; sourceTree = "<group>"; };
 		4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternViewController.m; sourceTree = "<group>"; };
 		4E5651612085E4D300A8052B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -529,6 +545,17 @@
 		4ED809462080908E00970959 /* 状态模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E109952208F328E002E1608 /* StatePatternViewController.h */,
+				4E109953208F328E002E1608 /* StatePatternViewController.m */,
+				4E10995C208F32AE002E1608 /* BuyState.h */,
+				4E10995B208F32AE002E1608 /* BuyState.m */,
+				4E109956208F32AE002E1608 /* Celling.h */,
+				4E109958208F32AE002E1608 /* Celling.m */,
+				4E109955208F32AD002E1608 /* CellingState.h */,
+				4E10995A208F32AE002E1608 /* ChoosingState.h */,
+				4E109957208F32AE002E1608 /* ChoosingState.m */,
+				4E10995D208F32AF002E1608 /* ShipmentState.h */,
+				4E109959208F32AE002E1608 /* ShipmentState.m */,
 			);
 			path = "状态模式";
 			sourceTree = "<group>";
@@ -897,6 +924,7 @@
 				4ED809912080B0E800970959 /* GeliAirConditioner.m in Sources */,
 				4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */,
 				4ED809652080999200970959 /* BallpointPen.m in Sources */,
+				4E10995E208F32AF002E1608 /* ChoosingState.m in Sources */,
 				4E07DEF7208DE366005C6FE0 /* FacadeCar.m in Sources */,
 				4EF2D455208F080100369D96 /* Invoker.m in Sources */,
 				4EC312A32089F4A200D355C9 /* UIView+SetRect.m in Sources */,
@@ -922,6 +950,7 @@
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4EC312952089F26A00D355C9 /* Football.m in Sources */,
 				4E10994F208F2781002E1608 /* StudentModel.m in Sources */,
+				4E109960208F32AF002E1608 /* ShipmentState.m in Sources */,
 				4E109944208F19A5002E1608 /* CheatGameDecotor.m in Sources */,
 				4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
@@ -932,6 +961,8 @@
 				4ED8096E2080A02500970959 /* HeaderImgFactory.m in Sources */,
 				4E9BE6992084507B004BAC55 /* AdapterDemo2ViewController.m in Sources */,
 				4EC312A02089F46700D355C9 /* FileCell.m in Sources */,
+				4E109961208F32AF002E1608 /* BuyState.m in Sources */,
+				4E109954208F328E002E1608 /* StatePatternViewController.m in Sources */,
 				4E109951208F2781002E1608 /* BaseCopyObject.m in Sources */,
 				4E9BE67A208446DB004BAC55 /* AdapterViewController.m in Sources */,
 				4E109950208F2781002E1608 /* ClassModel.m in Sources */,
@@ -944,6 +975,7 @@
 				4E9BE6862084484E004BAC55 /* AdapterManager.m in Sources */,
 				4ED8098E2080B0DF00970959 /* HaierAirConditioner.m in Sources */,
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
+				4E10995F208F32AF002E1608 /* Celling.m in Sources */,
 				4ED8097F2080A82D00970959 /* SingletonPatternViewController.m in Sources */,
 				4EC312722089D2AD00D355C9 /* CompositePatternViewController.m in Sources */,
 				4E109942208F19A5002E1608 /* GameDecortor.m in Sources */,
