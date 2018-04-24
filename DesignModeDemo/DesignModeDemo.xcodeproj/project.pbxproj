@@ -99,6 +99,7 @@
 		4ECF60CD208F370500DF3958 /* OperationSubStract.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C6208F370400DF3958 /* OperationSubStract.m */; };
 		4ECF60CE208F370500DF3958 /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C8208F370500DF3958 /* OperationMultiply.m */; };
 		4ECF60CF208F370500DF3958 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C9208F370500DF3958 /* Context.m */; };
+		4ECF60D1208F38C100DF3958 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ECF60D0208F38C000DF3958 /* demo.png */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -324,6 +325,7 @@
 		4ECF60C9208F370500DF3958 /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
 		4ECF60CA208F370500DF3958 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
 		4ECF60CB208F370500DF3958 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		4ECF60D0208F38C000DF3958 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 		4E76A5B6207F66F900C86B42 = {
 			isa = PBXGroup;
 			children = (
+				4ECF60D0208F38C000DF3958 /* demo.png */,
 				4E76A5C1207F66F900C86B42 /* DesignModeDemo */,
 				4E76A5C0207F66F900C86B42 /* Products */,
 			);
@@ -1007,6 +1010,7 @@
 			files = (
 				4E76A5CF207F66FA00C86B42 /* LaunchScreen.storyboard in Resources */,
 				4EC3129A2089F3F000D355C9 /* 文件夹系统.png in Resources */,
+				4ECF60D1208F38C100DF3958 /* demo.png in Resources */,
 				4E76A5CC207F66FA00C86B42 /* Assets.xcassets in Resources */,
 				4E76A5CA207F66F900C86B42 /* Main.storyboard in Resources */,
 				4ED8097C2080A17A00970959 /* AbstractFactoryPatternImg.jpeg in Resources */,

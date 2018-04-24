@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"24种设计模式-DEMO";
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tbView];
     
@@ -52,6 +52,13 @@
     }
     
     cell.textLabel.text = [self.designModeArray objectAtIndex:indexPath.row];
+    if (indexPath.row < 5) {
+        cell.backgroundColor = [UIColor redColor];
+    }else if(indexPath.row < 12){
+        cell.backgroundColor = [UIColor greenColor];
+    }else{
+        cell.backgroundColor = [UIColor blueColor];
+    }
     
     return cell;
 }
@@ -94,8 +101,11 @@
     
     if (_designModeArray == nil) {
         _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",@"原型模式",
+                             
                              @"适配器模式",@"装饰器模式",@"代理模式",@"外观模式",@"桥接模式",@"组合模式",
-                             @"模板模式",@"观察者模式",@"中介者模式",@"迭代器模式",@"责任链模式",
+                             @"享元模式",
+                             
+                             @"策略模式",@"模板模式",@"观察者模式",@"中介者模式",@"迭代器模式",@"责任链模式",
                              @"命令模式",@"备忘录模式",@"状态模式",@"访问者模式",@"解释器模式"];
     }
     return _designModeArray;
@@ -112,12 +122,16 @@
                        @"单例模式":@"SingletonPatternViewController",
                        @"构建者模式":@"BuilderViewController",
                        @"原型模式":@"PrototypePatternViewController",
+                       
                        @"适配器模式":@"AdapterViewController",
                        @"装饰器模式":@"DecoratorPatternViewController",
                        @"代理模式":@"DelegatePatternViewController",
                        @"外观模式":@"FacadePatternViewController",
                        @"桥接模式":@"BridgePatternViewController",
                        @"组合模式":@"CompositePatternViewController",
+                       @"享元模式":@"FlyweightPatternViewController",
+                       
+                       @"策略模式":@"StrategyPatternViewController",
                        @"模板模式":@"TemplatePatternViewController",
                        @"观察者模式":@"ObserverPatternViewController",
                        @"中介者模式":@"MediatorPatternViewController",
