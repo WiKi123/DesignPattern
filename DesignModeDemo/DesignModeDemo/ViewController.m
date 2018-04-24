@@ -96,7 +96,7 @@
         _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",@"原型模式",
                              @"适配器模式",@"装饰器模式",@"代理模式",@"外观模式",@"桥接模式",@"组合模式",
                              @"模板模式",@"观察者模式",@"中介者模式",@"迭代器模式",@"责任链模式",
-                             @"命令模式",@"备忘录模式",@"状态模式",@"访问者模式"];
+                             @"命令模式",@"备忘录模式",@"状态模式",@"访问者模式",@"解释器模式"];
     }
     return _designModeArray;
     
@@ -126,7 +126,8 @@
                        @"命令模式":@"CommandPatternViewController",
                        @"备忘录模式":@"MementoPatternViewController",
                        @"状态模式":@"StatePatternViewController",
-                       @"访问者模式":@"VisitorPatternViewController"
+                       @"访问者模式":@"VisitorPatternViewController",
+                       @"解释器模式":@"InterpreterPatternViewController"
         
                        };
     }
