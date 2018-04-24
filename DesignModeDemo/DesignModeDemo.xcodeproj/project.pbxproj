@@ -94,6 +94,11 @@
 		4ECF60BA208F359A00DF3958 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60B4208F359A00DF3958 /* Calculator.m */; };
 		4ECF60BB208F359A00DF3958 /* OperatorExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60B5208F359A00DF3958 /* OperatorExpression.m */; };
 		4ECF60BC208F359A00DF3958 /* AdditionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60B6208F359A00DF3958 /* AdditionExpression.m */; };
+		4ECF60C2208F36EB00DF3958 /* StrategyPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C1208F36EB00DF3958 /* StrategyPatternViewController.m */; };
+		4ECF60CC208F370500DF3958 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C5208F370400DF3958 /* OperationAdd.m */; };
+		4ECF60CD208F370500DF3958 /* OperationSubStract.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C6208F370400DF3958 /* OperationSubStract.m */; };
+		4ECF60CE208F370500DF3958 /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C8208F370500DF3958 /* OperationMultiply.m */; };
+		4ECF60CF208F370500DF3958 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60C9208F370500DF3958 /* Context.m */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -308,6 +313,17 @@
 		4ECF60B5208F359A00DF3958 /* OperatorExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorExpression.m; sourceTree = "<group>"; };
 		4ECF60B6208F359A00DF3958 /* AdditionExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionExpression.m; sourceTree = "<group>"; };
 		4ECF60B7208F359A00DF3958 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		4ECF60C0208F36EB00DF3958 /* StrategyPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyPatternViewController.h; sourceTree = "<group>"; };
+		4ECF60C1208F36EB00DF3958 /* StrategyPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternViewController.m; sourceTree = "<group>"; };
+		4ECF60C3208F370400DF3958 /* OperationMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMultiply.h; sourceTree = "<group>"; };
+		4ECF60C4208F370400DF3958 /* OperationSubStract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSubStract.h; sourceTree = "<group>"; };
+		4ECF60C5208F370400DF3958 /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		4ECF60C6208F370400DF3958 /* OperationSubStract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSubStract.m; sourceTree = "<group>"; };
+		4ECF60C7208F370500DF3958 /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		4ECF60C8208F370500DF3958 /* OperationMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMultiply.m; sourceTree = "<group>"; };
+		4ECF60C9208F370500DF3958 /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		4ECF60CA208F370500DF3958 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		4ECF60CB208F370500DF3958 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -732,6 +748,17 @@
 		4ED8094D208090FB00970959 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4ECF60C0208F36EB00DF3958 /* StrategyPatternViewController.h */,
+				4ECF60C1208F36EB00DF3958 /* StrategyPatternViewController.m */,
+				4ECF60CA208F370500DF3958 /* Context.h */,
+				4ECF60C9208F370500DF3958 /* Context.m */,
+				4ECF60C7208F370500DF3958 /* OperationAdd.h */,
+				4ECF60C5208F370400DF3958 /* OperationAdd.m */,
+				4ECF60C3208F370400DF3958 /* OperationMultiply.h */,
+				4ECF60C8208F370500DF3958 /* OperationMultiply.m */,
+				4ECF60C4208F370400DF3958 /* OperationSubStract.h */,
+				4ECF60C6208F370400DF3958 /* OperationSubStract.m */,
+				4ECF60CB208F370500DF3958 /* Strategy.h */,
 			);
 			path = "策略模式";
 			sourceTree = "<group>";
@@ -1008,6 +1035,7 @@
 				4ED809622080995C00970959 /* Pencil.m in Sources */,
 				4EF2D458208F083600369D96 /* DarkerCommand.m in Sources */,
 				4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */,
+				4ECF60CE208F370500DF3958 /* OperationMultiply.m in Sources */,
 				4EC312832089EC9500D355C9 /* ManagerHandler.m in Sources */,
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */,
@@ -1019,6 +1047,7 @@
 				4E9BE69620844E0D004BAC55 /* ModelTwoAdapter.m in Sources */,
 				4EC3128C2089F21C00D355C9 /* TemplatePatternViewController.m in Sources */,
 				4E9BE6AB20848DC1004BAC55 /* SubscibeCenter.m in Sources */,
+				4ECF60C2208F36EB00DF3958 /* StrategyPatternViewController.m in Sources */,
 				4EC312A62089F4FF00D355C9 /* FileViewController.m in Sources */,
 				4E07DF00208DEF01005C6FE0 /* MementoPatternViewController.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
@@ -1050,6 +1079,8 @@
 				4ECF60AB208F358000DF3958 /* InterpreterPatternViewController.m in Sources */,
 				4ECF60B9208F359A00DF3958 /* NumExpression.m in Sources */,
 				4ECF60A4208F33F400DF3958 /* AccountBook.m in Sources */,
+				4ECF60CC208F370500DF3958 /* OperationAdd.m in Sources */,
+				4ECF60CD208F370500DF3958 /* OperationSubStract.m in Sources */,
 				4EC312922089F25600D355C9 /* Game.m in Sources */,
 				4EC3127A2089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				4ECF60BA208F359A00DF3958 /* Calculator.m in Sources */,
@@ -1098,6 +1129,7 @@
 				4E07DEFD208DE38D005C6FE0 /* Taximeter.m in Sources */,
 				4E5651692085F90500A8052B /* Mediator.m in Sources */,
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
+				4ECF60CF208F370500DF3958 /* Context.m in Sources */,
 				4EC3126B2089C10E00D355C9 /* LinkedList.m in Sources */,
 				4E5651632085E4D300A8052B /* Person.m in Sources */,
 				4E109948208F2764002E1608 /* PrototypePatternViewController.m in Sources */,
