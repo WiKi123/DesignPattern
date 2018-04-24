@@ -16,6 +16,13 @@
 		4E07DF06208DEF48005C6FE0 /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF05208DEF48005C6FE0 /* MementoCenter.m */; };
 		4E07DF0B208DEFB5005C6FE0 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF0A208DEFB5005C6FE0 /* FastCoder.m */; };
 		4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DF0E208DF135005C6FE0 /* NSObject+MementoCenter.m */; };
+		4E109933208F18F4002E1608 /* DecoratorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109932208F18F4002E1608 /* DecoratorPatternViewController.m */; };
+		4E109940208F19A5002E1608 /* GameLoL+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109934208F19A3002E1608 /* GameLoL+Coin.m */; };
+		4E109941208F19A5002E1608 /* GameLoL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109937208F19A4002E1608 /* GameLoL.m */; };
+		4E109942208F19A5002E1608 /* GameDecortor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109939208F19A4002E1608 /* GameDecortor.m */; };
+		4E109943208F19A5002E1608 /* GameLoL+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10993A208F19A4002E1608 /* GameLoL+Cheat.m */; };
+		4E109944208F19A5002E1608 /* CheatGameDecotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10993D208F19A4002E1608 /* CheatGameDecotor.m */; };
+		4E109945208F19A5002E1608 /* CoinGameDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10993E208F19A4002E1608 /* CoinGameDecorator.m */; };
 		4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */; };
 		4E5651632085E4D300A8052B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651622085E4D300A8052B /* Person.m */; };
 		4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651652085F8C800A8052B /* MediatorPatternViewController.m */; };
@@ -117,6 +124,20 @@
 		4E07DF0A208DEFB5005C6FE0 /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
 		4E07DF0D208DF135005C6FE0 /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MementoCenter.h"; sourceTree = "<group>"; };
 		4E07DF0E208DF135005C6FE0 /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MementoCenter.m"; sourceTree = "<group>"; };
+		4E109931208F18F4002E1608 /* DecoratorPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorPatternViewController.h; sourceTree = "<group>"; };
+		4E109932208F18F4002E1608 /* DecoratorPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPatternViewController.m; sourceTree = "<group>"; };
+		4E109934208F19A3002E1608 /* GameLoL+Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameLoL+Coin.m"; sourceTree = "<group>"; };
+		4E109935208F19A3002E1608 /* CheatGameDecotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatGameDecotor.h; sourceTree = "<group>"; };
+		4E109936208F19A3002E1608 /* GameDecortor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDecortor.h; sourceTree = "<group>"; };
+		4E109937208F19A4002E1608 /* GameLoL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLoL.m; sourceTree = "<group>"; };
+		4E109938208F19A4002E1608 /* GameLoL+Cheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameLoL+Cheat.h"; sourceTree = "<group>"; };
+		4E109939208F19A4002E1608 /* GameDecortor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDecortor.m; sourceTree = "<group>"; };
+		4E10993A208F19A4002E1608 /* GameLoL+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameLoL+Cheat.m"; sourceTree = "<group>"; };
+		4E10993B208F19A4002E1608 /* GameLoL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLoL.h; sourceTree = "<group>"; };
+		4E10993C208F19A4002E1608 /* CoinGameDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinGameDecorator.h; sourceTree = "<group>"; };
+		4E10993D208F19A4002E1608 /* CheatGameDecotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatGameDecotor.m; sourceTree = "<group>"; };
+		4E10993E208F19A4002E1608 /* CoinGameDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinGameDecorator.m; sourceTree = "<group>"; };
+		4E10993F208F19A5002E1608 /* GameLoL+Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameLoL+Coin.h"; sourceTree = "<group>"; };
 		4E56515E2085E4C100A8052B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternViewController.h; sourceTree = "<group>"; };
 		4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternViewController.m; sourceTree = "<group>"; };
 		4E5651612085E4D300A8052B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -691,6 +712,20 @@
 		4ED809542080916200970959 /* 装饰器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E109931208F18F4002E1608 /* DecoratorPatternViewController.h */,
+				4E109932208F18F4002E1608 /* DecoratorPatternViewController.m */,
+				4E109935208F19A3002E1608 /* CheatGameDecotor.h */,
+				4E10993D208F19A4002E1608 /* CheatGameDecotor.m */,
+				4E10993C208F19A4002E1608 /* CoinGameDecorator.h */,
+				4E10993E208F19A4002E1608 /* CoinGameDecorator.m */,
+				4E109936208F19A3002E1608 /* GameDecortor.h */,
+				4E109939208F19A4002E1608 /* GameDecortor.m */,
+				4E10993B208F19A4002E1608 /* GameLoL.h */,
+				4E109937208F19A4002E1608 /* GameLoL.m */,
+				4E109938208F19A4002E1608 /* GameLoL+Cheat.h */,
+				4E10993A208F19A4002E1608 /* GameLoL+Cheat.m */,
+				4E10993F208F19A5002E1608 /* GameLoL+Coin.h */,
+				4E109934208F19A3002E1608 /* GameLoL+Coin.m */,
 			);
 			path = "装饰器模式";
 			sourceTree = "<group>";
@@ -855,6 +890,7 @@
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
 				4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */,
 				4E07DF03208DEF2A005C6FE0 /* Apple.m in Sources */,
+				4E109945208F19A5002E1608 /* CoinGameDecorator.m in Sources */,
 				4E07DF0B208DEFB5005C6FE0 /* FastCoder.m in Sources */,
 				4ED8098B2080B0C500970959 /* AirConditioner.m in Sources */,
 				4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */,
@@ -865,6 +901,7 @@
 				4E07DF00208DEF01005C6FE0 /* MementoPatternViewController.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4EC312952089F26A00D355C9 /* Football.m in Sources */,
+				4E109944208F19A5002E1608 /* CheatGameDecotor.m in Sources */,
 				4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
@@ -886,7 +923,9 @@
 				4E76A5C7207F66F900C86B42 /* ViewController.m in Sources */,
 				4ED8097F2080A82D00970959 /* SingletonPatternViewController.m in Sources */,
 				4EC312722089D2AD00D355C9 /* CompositePatternViewController.m in Sources */,
+				4E109942208F19A5002E1608 /* GameDecortor.m in Sources */,
 				4E9BE67F2084474E004BAC55 /* AdapterUSD.m in Sources */,
+				4E109943208F19A5002E1608 /* GameLoL+Cheat.m in Sources */,
 				4E5651722085FA6F00A8052B /* ConcreteColleague.m in Sources */,
 				4E07DEF4208DE34A005C6FE0 /* FacadePatternViewController.m in Sources */,
 				4ED809852080B06000970959 /* BridgePatternViewController.m in Sources */,
@@ -903,12 +942,14 @@
 				4E9BE68C20844D2D004BAC55 /* ModelOne.m in Sources */,
 				4EC312682089BFF300D355C9 /* Node.m in Sources */,
 				4EF2D44E208EE3D700369D96 /* CommandPatternViewController.m in Sources */,
+				4E109933208F18F4002E1608 /* DecoratorPatternViewController.m in Sources */,
 				4ED809882080B08600970959 /* Remote.m in Sources */,
 				4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */,
 				4EC312652089BF9700D355C9 /* IteratorPatternViewController.m in Sources */,
 				4EC3129D2089F43300D355C9 /* File.m in Sources */,
 				4ED809822080A84800970959 /* SingletonManager.m in Sources */,
 				4ED8096B20809F8200970959 /* AbstractFactoryPatternViewController.m in Sources */,
+				4E109940208F19A5002E1608 /* GameLoL+Coin.m in Sources */,
 				4EC312862089ECAE00D355C9 /* ChairmanHandler.m in Sources */,
 				4EC312802089EC7B00D355C9 /* GroupLeaderHandler.m in Sources */,
 				4E9BE68F20844D5A004BAC55 /* ModelTwo.m in Sources */,
@@ -920,6 +961,7 @@
 				4E5651632085E4D300A8052B /* Person.m in Sources */,
 				4E9BE69320844DFD004BAC55 /* ModelOneAdapter.m in Sources */,
 				4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */,
+				4E109941208F19A5002E1608 /* GameLoL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
