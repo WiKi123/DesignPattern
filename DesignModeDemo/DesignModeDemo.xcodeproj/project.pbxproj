@@ -23,6 +23,10 @@
 		4E109943208F19A5002E1608 /* GameLoL+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10993A208F19A4002E1608 /* GameLoL+Cheat.m */; };
 		4E109944208F19A5002E1608 /* CheatGameDecotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10993D208F19A4002E1608 /* CheatGameDecotor.m */; };
 		4E109945208F19A5002E1608 /* CoinGameDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10993E208F19A4002E1608 /* CoinGameDecorator.m */; };
+		4E109948208F2764002E1608 /* PrototypePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E109947208F2764002E1608 /* PrototypePatternViewController.m */; };
+		4E10994F208F2781002E1608 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10994B208F2780002E1608 /* StudentModel.m */; };
+		4E109950208F2781002E1608 /* ClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10994D208F2780002E1608 /* ClassModel.m */; };
+		4E109951208F2781002E1608 /* BaseCopyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10994E208F2781002E1608 /* BaseCopyObject.m */; };
 		4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */; };
 		4E5651632085E4D300A8052B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651622085E4D300A8052B /* Person.m */; };
 		4E5651662085F8C800A8052B /* MediatorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5651652085F8C800A8052B /* MediatorPatternViewController.m */; };
@@ -138,6 +142,14 @@
 		4E10993D208F19A4002E1608 /* CheatGameDecotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatGameDecotor.m; sourceTree = "<group>"; };
 		4E10993E208F19A4002E1608 /* CoinGameDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinGameDecorator.m; sourceTree = "<group>"; };
 		4E10993F208F19A5002E1608 /* GameLoL+Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameLoL+Coin.h"; sourceTree = "<group>"; };
+		4E109946208F2764002E1608 /* PrototypePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypePatternViewController.h; sourceTree = "<group>"; };
+		4E109947208F2764002E1608 /* PrototypePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePatternViewController.m; sourceTree = "<group>"; };
+		4E109949208F2780002E1608 /* BaseCopyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCopyObject.h; sourceTree = "<group>"; };
+		4E10994A208F2780002E1608 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		4E10994B208F2780002E1608 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		4E10994C208F2780002E1608 /* ClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassModel.h; sourceTree = "<group>"; };
+		4E10994D208F2780002E1608 /* ClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassModel.m; sourceTree = "<group>"; };
+		4E10994E208F2781002E1608 /* BaseCopyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCopyObject.m; sourceTree = "<group>"; };
 		4E56515E2085E4C100A8052B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternViewController.h; sourceTree = "<group>"; };
 		4E56515F2085E4C100A8052B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternViewController.m; sourceTree = "<group>"; };
 		4E5651612085E4D300A8052B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -758,6 +770,14 @@
 		4ED809572080918600970959 /* 原型模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4E109946208F2764002E1608 /* PrototypePatternViewController.h */,
+				4E109947208F2764002E1608 /* PrototypePatternViewController.m */,
+				4E10994A208F2780002E1608 /* StudentModel.h */,
+				4E10994B208F2780002E1608 /* StudentModel.m */,
+				4E109949208F2780002E1608 /* BaseCopyObject.h */,
+				4E10994E208F2781002E1608 /* BaseCopyObject.m */,
+				4E10994C208F2780002E1608 /* ClassModel.h */,
+				4E10994D208F2780002E1608 /* ClassModel.m */,
 			);
 			path = "原型模式";
 			sourceTree = "<group>";
@@ -901,6 +921,7 @@
 				4E07DF00208DEF01005C6FE0 /* MementoPatternViewController.m in Sources */,
 				4E76A5DB207F6D8300C86B42 /* BuilderViewController.m in Sources */,
 				4EC312952089F26A00D355C9 /* Football.m in Sources */,
+				4E10994F208F2781002E1608 /* StudentModel.m in Sources */,
 				4E109944208F19A5002E1608 /* CheatGameDecotor.m in Sources */,
 				4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
@@ -911,7 +932,9 @@
 				4ED8096E2080A02500970959 /* HeaderImgFactory.m in Sources */,
 				4E9BE6992084507B004BAC55 /* AdapterDemo2ViewController.m in Sources */,
 				4EC312A02089F46700D355C9 /* FileCell.m in Sources */,
+				4E109951208F2781002E1608 /* BaseCopyObject.m in Sources */,
 				4E9BE67A208446DB004BAC55 /* AdapterViewController.m in Sources */,
+				4E109950208F2781002E1608 /* ClassModel.m in Sources */,
 				4EC3127D2089EC4800D355C9 /* Handler.m in Sources */,
 				4ED8095F208098F700970959 /* Pen.m in Sources */,
 				4ED809962080B24F00970959 /* DirectionRemote.m in Sources */,
@@ -959,6 +982,7 @@
 				4ED809712080A09300970959 /* CircleHeaderFactory.m in Sources */,
 				4EC3126B2089C10E00D355C9 /* LinkedList.m in Sources */,
 				4E5651632085E4D300A8052B /* Person.m in Sources */,
+				4E109948208F2764002E1608 /* PrototypePatternViewController.m in Sources */,
 				4E9BE69320844DFD004BAC55 /* ModelOneAdapter.m in Sources */,
 				4E76A5C4207F66F900C86B42 /* AppDelegate.m in Sources */,
 				4E109941208F19A5002E1608 /* GameLoL.m in Sources */,

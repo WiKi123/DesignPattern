@@ -64,7 +64,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    
     NSString *type = [self.designModeArray objectAtIndex:indexPath.row];
+    NSLog(@"\n\n=================设计模式：%@=================\n\n",type);
     NSString *vcName = [self.modeVCDic objectForKey:type];
     UIViewController *subViewController = [[NSClassFromString(vcName) alloc] init];
     subViewController.title = type;
@@ -91,7 +93,7 @@
 - (NSArray *)designModeArray{
     
     if (_designModeArray == nil) {
-        _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",
+        _designModeArray = @[@"工厂方法模式",@"抽象工厂模式",@"单例模式",@"构建者模式",@"原型模式",
                              @"适配器模式",@"装饰器模式",@"代理模式",@"外观模式",@"桥接模式",@"组合模式",
                              @"模板模式",@"观察者模式",@"中介者模式",@"迭代器模式",@"责任链模式",
                              @"命令模式",@"备忘录模式"];
@@ -109,6 +111,7 @@
                        @"抽象工厂模式":@"AbstractFactoryPatternViewController",
                        @"单例模式":@"SingletonPatternViewController",
                        @"构建者模式":@"BuilderViewController",
+                       @"原型模式":@"PrototypePatternViewController",
                        @"适配器模式":@"AdapterViewController",
                        @"装饰器模式":@"DecoratorPatternViewController",
                        @"代理模式":@"DelegatePatternViewController",
