@@ -13,8 +13,8 @@
 
 其实还有两类：并发型模式和线程池模式。
 
-关于各种设计模式的详细介绍在下面链接中：
-![](https://github.com/WiKi123/DesignPattern/blob/master/DesignPatternIntroduce.md)
+
+ [关于各种设计模式的详细介绍](https://github.com/WiKi123/DesignPattern/blob/master/DesignPatternIntroduce.md)
 
 ---------------------------------------------------------------------------------------------------------------
 
