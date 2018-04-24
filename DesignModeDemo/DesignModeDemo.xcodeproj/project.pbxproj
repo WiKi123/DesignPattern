@@ -90,6 +90,11 @@
 		4ED8099C2080C02F00970959 /* FlyweightPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8099B2080C02F00970959 /* FlyweightPatternViewController.m */; };
 		4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8099E2080C04100970959 /* FlowerFactory.m */; };
 		4ED809A22080C04B00970959 /* Flower.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809A12080C04B00970959 /* Flower.m */; };
+		4EF2D44E208EE3D700369D96 /* CommandPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2D44D208EE3D700369D96 /* CommandPatternViewController.m */; };
+		4EF2D452208F055800369D96 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2D451208F055800369D96 /* Receiver.m */; };
+		4EF2D455208F080100369D96 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2D454208F080100369D96 /* Invoker.m */; };
+		4EF2D458208F083600369D96 /* DarkerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2D457208F083600369D96 /* DarkerCommand.m */; };
+		4EF2D45B208F0AEF00369D96 /* LighterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2D45A208F0AEF00369D96 /* LighterCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -262,6 +267,17 @@
 		4ED8099E2080C04100970959 /* FlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowerFactory.m; sourceTree = "<group>"; };
 		4ED809A02080C04B00970959 /* Flower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flower.h; sourceTree = "<group>"; };
 		4ED809A12080C04B00970959 /* Flower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flower.m; sourceTree = "<group>"; };
+		4EF2D44C208EE3D700369D96 /* CommandPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandPatternViewController.h; sourceTree = "<group>"; };
+		4EF2D44D208EE3D700369D96 /* CommandPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandPatternViewController.m; sourceTree = "<group>"; };
+		4EF2D44F208F051800369D96 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		4EF2D450208F055800369D96 /* Receiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		4EF2D451208F055800369D96 /* Receiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		4EF2D453208F080100369D96 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		4EF2D454208F080100369D96 /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		4EF2D456208F083600369D96 /* DarkerCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkerCommand.h; sourceTree = "<group>"; };
+		4EF2D457208F083600369D96 /* DarkerCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkerCommand.m; sourceTree = "<group>"; };
+		4EF2D459208F0AEF00369D96 /* LighterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LighterCommand.h; sourceTree = "<group>"; };
+		4EF2D45A208F0AEF00369D96 /* LighterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighterCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -502,6 +518,17 @@
 		4ED809482080909F00970959 /* 命令模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4EF2D44C208EE3D700369D96 /* CommandPatternViewController.h */,
+				4EF2D44D208EE3D700369D96 /* CommandPatternViewController.m */,
+				4EF2D453208F080100369D96 /* Invoker.h */,
+				4EF2D454208F080100369D96 /* Invoker.m */,
+				4EF2D450208F055800369D96 /* Receiver.h */,
+				4EF2D451208F055800369D96 /* Receiver.m */,
+				4EF2D44F208F051800369D96 /* CommandProtocol.h */,
+				4EF2D456208F083600369D96 /* DarkerCommand.h */,
+				4EF2D457208F083600369D96 /* DarkerCommand.m */,
+				4EF2D459208F0AEF00369D96 /* LighterCommand.h */,
+				4EF2D45A208F0AEF00369D96 /* LighterCommand.m */,
 			);
 			path = "命令模式";
 			sourceTree = "<group>";
@@ -816,11 +843,13 @@
 				4ED8099F2080C04100970959 /* FlowerFactory.m in Sources */,
 				4ED809652080999200970959 /* BallpointPen.m in Sources */,
 				4E07DEF7208DE366005C6FE0 /* FacadeCar.m in Sources */,
+				4EF2D455208F080100369D96 /* Invoker.m in Sources */,
 				4EC312A32089F4A200D355C9 /* UIView+SetRect.m in Sources */,
 				4ED809A22080C04B00970959 /* Flower.m in Sources */,
 				4E07DEFA208DE37A005C6FE0 /* CabDriver.m in Sources */,
 				4E56516C2085F93200A8052B /* ConcreteMediator.m in Sources */,
 				4ED809622080995C00970959 /* Pencil.m in Sources */,
+				4EF2D458208F083600369D96 /* DarkerCommand.m in Sources */,
 				4E5651602085E4C100A8052B /* DelegatePatternViewController.m in Sources */,
 				4EC312832089EC9500D355C9 /* ManagerHandler.m in Sources */,
 				4ED809742080A0BD00970959 /* SquareHeaderFactory.m in Sources */,
@@ -839,6 +868,7 @@
 				4E07DF0F208DF135005C6FE0 /* NSObject+MementoCenter.m in Sources */,
 				4E76A5F5208062C800C86B42 /* Car.m in Sources */,
 				4E76A5E220804FBE00C86B42 /* Director.m in Sources */,
+				4EF2D45B208F0AEF00369D96 /* LighterCommand.m in Sources */,
 				4E07DF06208DEF48005C6FE0 /* MementoCenter.m in Sources */,
 				4EC312892089ECD300D355C9 /* Order.m in Sources */,
 				4ED8096E2080A02500970959 /* HeaderImgFactory.m in Sources */,
@@ -868,9 +898,11 @@
 				4EC3126F2089C2D900D355C9 /* LinkIterator.m in Sources */,
 				4E9BE683208447F3004BAC55 /* AdapterCNY.m in Sources */,
 				4E76A5D2207F66FA00C86B42 /* main.m in Sources */,
+				4EF2D452208F055800369D96 /* Receiver.m in Sources */,
 				4E9BE6A820848D75004BAC55 /* ObserverPatternViewController.m in Sources */,
 				4E9BE68C20844D2D004BAC55 /* ModelOne.m in Sources */,
 				4EC312682089BFF300D355C9 /* Node.m in Sources */,
+				4EF2D44E208EE3D700369D96 /* CommandPatternViewController.m in Sources */,
 				4ED809882080B08600970959 /* Remote.m in Sources */,
 				4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */,
 				4EC312652089BF9700D355C9 /* IteratorPatternViewController.m in Sources */,
