@@ -1,3 +1,5 @@
+![](https://github.com/WiKi123/DesignPattern/blob/master/DesignModeDemo/demo.png)
+
 #设计模式分为三大类：
 
 创建型模式，共五种：
@@ -40,3 +42,8 @@
 
 6、合成复用原则（Composite Reuse Principle）
 尽量首先使用合成/聚合的方式，而不是使用继承。
+
+
+Thanks 温杰.
+Thanks http://www.runoob.com/sitemap.
+
