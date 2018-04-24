@@ -82,6 +82,12 @@
 		4EC312A02089F46700D355C9 /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3129F2089F46700D355C9 /* FileCell.m */; };
 		4EC312A32089F4A200D355C9 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312A22089F4A200D355C9 /* UIView+SetRect.m */; };
 		4EC312A62089F4FF00D355C9 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC312A52089F4FF00D355C9 /* FileViewController.m */; };
+		4ECF6097208F33CD00DF3958 /* VisitorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF6096208F33CD00DF3958 /* VisitorPatternViewController.m */; };
+		4ECF60A4208F33F400DF3958 /* AccountBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF609B208F33F300DF3958 /* AccountBook.m */; };
+		4ECF60A5208F33F400DF3958 /* CAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF609D208F33F300DF3958 /* CAP.m */; };
+		4ECF60A6208F33F400DF3958 /* ConsumeBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF609E208F33F300DF3958 /* ConsumeBill.m */; };
+		4ECF60A7208F33F400DF3958 /* IncomeBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60A0208F33F300DF3958 /* IncomeBill.m */; };
+		4ECF60A8208F33F400DF3958 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF60A2208F33F400DF3958 /* Boss.m */; };
 		4ED8095C208098C100970959 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095B208098C100970959 /* FactoryPatternViewController.m */; };
 		4ED8095F208098F700970959 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8095E208098F700970959 /* Pen.m */; };
 		4ED809622080995C00970959 /* Pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED809612080995C00970959 /* Pencil.m */; };
@@ -269,6 +275,20 @@
 		4EC312A22089F4A200D355C9 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 		4EC312A42089F4FF00D355C9 /* FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
 		4EC312A52089F4FF00D355C9 /* FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		4ECF6095208F33CD00DF3958 /* VisitorPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorPatternViewController.h; sourceTree = "<group>"; };
+		4ECF6096208F33CD00DF3958 /* VisitorPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorPatternViewController.m; sourceTree = "<group>"; };
+		4ECF6098208F33F200DF3958 /* Bill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		4ECF6099208F33F200DF3958 /* AccountBookViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBookViewer.h; sourceTree = "<group>"; };
+		4ECF609A208F33F200DF3958 /* AccountBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBook.h; sourceTree = "<group>"; };
+		4ECF609B208F33F300DF3958 /* AccountBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountBook.m; sourceTree = "<group>"; };
+		4ECF609C208F33F300DF3958 /* CAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAP.h; sourceTree = "<group>"; };
+		4ECF609D208F33F300DF3958 /* CAP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAP.m; sourceTree = "<group>"; };
+		4ECF609E208F33F300DF3958 /* ConsumeBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumeBill.m; sourceTree = "<group>"; };
+		4ECF609F208F33F300DF3958 /* IncomeBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomeBill.h; sourceTree = "<group>"; };
+		4ECF60A0208F33F300DF3958 /* IncomeBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeBill.m; sourceTree = "<group>"; };
+		4ECF60A1208F33F300DF3958 /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		4ECF60A2208F33F400DF3958 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		4ECF60A3208F33F400DF3958 /* ConsumeBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumeBill.h; sourceTree = "<group>"; };
 		4ED8095A208098C100970959 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		4ED8095B208098C100970959 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 		4ED8095D208098F700970959 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
@@ -538,6 +558,20 @@
 		4ED809452080908400970959 /* 访问者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4ECF6095208F33CD00DF3958 /* VisitorPatternViewController.h */,
+				4ECF6096208F33CD00DF3958 /* VisitorPatternViewController.m */,
+				4ECF609A208F33F200DF3958 /* AccountBook.h */,
+				4ECF609B208F33F300DF3958 /* AccountBook.m */,
+				4ECF6099208F33F200DF3958 /* AccountBookViewer.h */,
+				4ECF6098208F33F200DF3958 /* Bill.h */,
+				4ECF60A1208F33F300DF3958 /* Boss.h */,
+				4ECF60A2208F33F400DF3958 /* Boss.m */,
+				4ECF609C208F33F300DF3958 /* CAP.h */,
+				4ECF609D208F33F300DF3958 /* CAP.m */,
+				4ECF60A3208F33F400DF3958 /* ConsumeBill.h */,
+				4ECF609E208F33F300DF3958 /* ConsumeBill.m */,
+				4ECF609F208F33F300DF3958 /* IncomeBill.h */,
+				4ECF60A0208F33F300DF3958 /* IncomeBill.m */,
 			);
 			path = "访问者模式";
 			sourceTree = "<group>";
@@ -969,7 +1003,9 @@
 				4EC3127D2089EC4800D355C9 /* Handler.m in Sources */,
 				4ED8095F208098F700970959 /* Pen.m in Sources */,
 				4ED809962080B24F00970959 /* DirectionRemote.m in Sources */,
+				4ECF60A6208F33F400DF3958 /* ConsumeBill.m in Sources */,
 				4ED80968208099B900970959 /* PenFactory.m in Sources */,
+				4ECF60A4208F33F400DF3958 /* AccountBook.m in Sources */,
 				4EC312922089F25600D355C9 /* Game.m in Sources */,
 				4EC3127A2089EBEF00D355C9 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				4E9BE6862084484E004BAC55 /* AdapterManager.m in Sources */,
@@ -984,15 +1020,19 @@
 				4E5651722085FA6F00A8052B /* ConcreteColleague.m in Sources */,
 				4E07DEF4208DE34A005C6FE0 /* FacadePatternViewController.m in Sources */,
 				4ED809852080B06000970959 /* BridgePatternViewController.m in Sources */,
+				4ECF60A5208F33F400DF3958 /* CAP.m in Sources */,
 				4E56516F2085F99100A8052B /* Colleague.m in Sources */,
+				4ECF60A7208F33F400DF3958 /* IncomeBill.m in Sources */,
 				4E76A5F12080603500C86B42 /* CarCompanyBuilder.m in Sources */,
 				4E9BE69C20845258004BAC55 /* AdapterDemo1ViewController.m in Sources */,
 				4ED809992080B26600970959 /* TemperatureRemote.m in Sources */,
 				4E9BE68920844CF3004BAC55 /* ColorView.m in Sources */,
 				4EC3126F2089C2D900D355C9 /* LinkIterator.m in Sources */,
+				4ECF60A8208F33F400DF3958 /* Boss.m in Sources */,
 				4E9BE683208447F3004BAC55 /* AdapterCNY.m in Sources */,
 				4E76A5D2207F66FA00C86B42 /* main.m in Sources */,
 				4EF2D452208F055800369D96 /* Receiver.m in Sources */,
+				4ECF6097208F33CD00DF3958 /* VisitorPatternViewController.m in Sources */,
 				4E9BE6A820848D75004BAC55 /* ObserverPatternViewController.m in Sources */,
 				4E9BE68C20844D2D004BAC55 /* ModelOne.m in Sources */,
 				4EC312682089BFF300D355C9 /* Node.m in Sources */,
